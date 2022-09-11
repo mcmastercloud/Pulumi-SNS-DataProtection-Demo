@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": ".",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "stripInternal": true,
+    "experimentalDecorators": true,
+    "pretty": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "index.ts", "classes.ts", "policy.ts"
+  ]
+}

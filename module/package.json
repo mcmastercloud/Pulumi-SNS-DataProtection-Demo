@@ -1,0 +1,28 @@
+{
+  "name": "@deloitte-cloud-uk/pulumi-aws-vpc",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Module for Creating Vpcs",
+  "main": "index.js",
+    "author": {
+    "name": "Stephen McMaster"
+  },
+  "devDependencies": {
+    "@types/node": "^14"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "prepare": "tsc",
+    "watch": "tsc -w",
+    "test": "mocha",
+    "start": "index.js"
+  },
+  "dependencies": {
+    "@deloitte-cloud-uk/cidr": "1.0.20",
+    "@deloitte-cloud-uk/pulumi-aws-vpc": "^1.0.4",
+    "@pulumi/aws": "^5.13.0",
+    "@pulumi/awsx": "^0.40.0",
+    "@pulumi/pulumi": "^3.0.0"
+  }
+}
