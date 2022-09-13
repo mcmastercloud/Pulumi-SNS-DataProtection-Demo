@@ -4,6 +4,7 @@ export class Attributes {
     name: string = "";
     main: aws.sns.TopicArgs;
     dataProtection: boolean = false;
+    dataProtectionIdentifiers: string[] = []
 
     constructor(init?: Partial<Attributes>) {
         Object.assign(this, init);

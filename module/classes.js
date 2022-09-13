@@ -2,6 +2,7 @@ export class Attributes {
     name = "";
     main;
     dataProtection = false;
+    dataProtectionIdentifiers = [];
     constructor(init) {
         Object.assign(this, init);
         this.main = {};

@@ -1,5 +1,5 @@
 name: SNSDataProtectionPolicy
-description: Example SNS Topic with Protection Policy
+description: Example SNS Topic with Data Protection Policy
 runtime: 
   name: nodejs
   options: 

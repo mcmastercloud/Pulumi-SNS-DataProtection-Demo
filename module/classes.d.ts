@@ -3,6 +3,7 @@ export declare class Attributes {
     name: string;
     main: aws.sns.TopicArgs;
     dataProtection: boolean;
+    dataProtectionIdentifiers: string[];
     constructor(init?: Partial<Attributes>);
 }
 export declare class PolicyArgs {
